@@ -1,0 +1,206 @@
+$main-bg-color: #1e1e1e;
+$primary-color: #d7fe62;
+$secondary-bg-color: #3d3d3d;
+$text-color: #c3c3c3;
+
+.keywordscol {
+  height: 154px;
+  background-color: $secondary-bg-color;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.keywordtitle {
+  font-size: 16px;
+  font-weight: bold;
+  color: #f2f2f2;
+  margin: 17px 0 0 12px;
+  display: flex;
+  align-items: center;
+}
+
+.hrline {
+  width: 100%;
+  margin-top: 13px;
+}
+
+.hashicon {
+  margin-right: 12px;
+}
+
+.situationCol {
+  max-height: 432px;
+  height: 54px;
+  background-color: $secondary-bg-color;
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.ant-collapse {
+  .ant-collapse-item {
+    .ant-collapse-header {
+      .ant-collapse-header-text {
+        color: #f2f2f2;
+        font-size: 16px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+      }
+
+      .ant-collapse-expand-icon {
+        color: #f2f2f2;
+      }
+    }
+
+    .ant-collapse-content {
+      color: $text-color;
+      max-height: 300px;
+      overflow-y: scroll;
+      @media screen and (max-width: 991px) {
+        max-height: 280px;
+      }
+    }
+
+    .ant-collapse-content::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}
+
+.submitkeywords {
+  min-width: 110px !important;
+  height: 40px !important;
+  border-radius: 30px !important;
+  background-color: $primary-color;
+  color: black;
+  margin-left: auto;
+  @media screen and (max-width: 991px) {
+    min-height: 30px;
+    min-width: 90px !important;
+  }
+}
+
+.submitkeywords:hover {
+  background-color: $primary-color !important;
+  color: black !important;
+}
+
+.keywordclass {
+  display: flex;
+  align-items: center;
+  // padding-top: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+}
+
+.checkboxclass {
+  // width: 83%;
+  height: 86px;
+  overflow-y: scroll;
+  flex: 1;
+  margin-right: 20px;
+}
+
+.checkboxclass::-webkit-scrollbar {
+  display: none;
+}
+
+.ant-checkbox-group {
+  width: 98%;
+  .ant-checkbox-wrapper {
+    background-color: #4a4a4a;
+    color: $text-color;
+    border-radius: 20px;
+    min-height: 33px;
+    font-size: 14px;
+    padding: 8px 14px 8px 14px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    @media screen and (max-width: 991px) {
+      min-height: 25px;
+      font-size: 12px;
+      padding: 5px 10px 5px 10px;
+    }
+  }
+
+  .ant-checkbox-wrapper-checked {
+    background-color: $primary-color;
+    color: $secondary-bg-color;
+  }
+}
+
+.ant-checkbox {
+  display: none;
+}
+
+.ant-radio-wrapper {
+  background-color: #4a4a4a;
+  color: $text-color;
+  min-height: 40px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px 0 20px;
+  @media screen and (max-width: 991px) {
+    min-height: 35px;
+  }
+  .ant-radio {
+    + span {
+      padding: 8px;
+      font-size: 14px;
+      line-height: 20px;
+      @media screen and (max-width: 991px) {
+        font-size: 13px;
+        line-height: 18px;
+      }
+    }
+    .ant-radio-inner {
+      @media screen and (max-width: 991px) {
+        width: 14px;
+        height: 14px;
+      }
+    }
+  }
+}
+
+.ant-radio-wrapper-checked {
+  color: $primary-color;
+}
+
+.ant-radio {
+  // margin-left: 21px !important;
+  accent-color: $primary-color !important;
+}
+.ant-radio-group {
+  width: 98% !important;
+}
+
+.ant-radio-checked .ant-radio-inner {
+  border: transparent;
+  background-color: $primary-color !important;
+}
+
+.ant-spin-dot {
+  .ant-spin-dot-item {
+    background-color: $primary-color;
+    height: 20px;
+    width: 20px;
+    // padding: 20px;
+    margin: 10px;
+  }
+}
+.ant-spin-text {
+  color: black;
+}
+
+.errorClass {
+  font-weight: bold;
+  color: rgb(255, 79, 79);
+  font-size: 18px;
+  margin: 20px 2px 0 2px;
+}

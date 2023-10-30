@@ -34,3 +34,14 @@ $ npm run start:dev
 ```
 
 
+
+# Client
+
+
+```
+
+$ npm  install 
+
+$ npm  start
+
+```

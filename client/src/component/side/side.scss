@@ -1,0 +1,74 @@
+$main-bg-color: #1e1e1e;
+$primary-color: #d7fe62;
+$secondary-bg-color: #3d3d3d;
+$text-color: #c3c3c3;
+
+.timeicon {
+  margin-top: 17px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  margin-left: 18px;
+}
+
+.clockicon {
+  height: 20px;
+  width: 20px;
+  margin-right: 12px;
+}
+
+.hrline {
+  width: 95px;
+  margin-top: 10px;
+}
+
+.ant-menu {
+  background-color: $secondary-bg-color;
+
+  .ant-menu-item {
+    color: $text-color;
+    border: 1px solid $text-color;
+    align-items: center;
+    gap: 10;
+    border-radius: 20px;
+    height: 33px;
+    width: 100px;
+    margin: 10px 10px 0 10px;
+    display: flex;
+    justify-content: center;
+
+    .ant-menu-title-content {
+      font-size: 14px;
+    }
+  }
+
+  .ant-menu-item:active {
+    background-color: $primary-color !important;
+  }
+
+  // .ant-menu-item:hover {
+  //   background-color: $secondary-bg-color !important;
+  //   color: $text-color !important;
+  // }
+
+  .ant-menu-item-selected {
+    background-color: #d7fe62;
+    color: $secondary-bg-color;
+  }
+}
+
+.timeline {
+  height: calc(100vh - 218px);
+  overflow-y: scroll;
+}
+
+.timeline::-webkit-scrollbar {
+  display: none;
+}
+
+.errorClass {
+  font-weight: bold;
+  color: rgb(255, 79, 79);
+  font-size: 18px;
+  margin: 20px 2px 0 2px;
+}

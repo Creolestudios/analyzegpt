@@ -1,0 +1,43 @@
+$main-bg-color: #1e1e1e;
+$primary-color: #d7fe62;
+$secondary-bg-color: #3d3d3d;
+
+.headerStyle {
+  height: 80px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+.contentStyle {
+  background-color: $main-bg-color;
+  height: calc(100vh - 80px);
+  color: white;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 30px;
+}
+
+.siderStyle {
+  text-align: center;
+  color: white;
+  // width: 220px !important;
+  height: calc(100vh - 80px);
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 991px) {
+  .collapsedButton {
+    display: block;
+  }
+}
+
+@media (min-width: 992px) {
+  .collapsedButton {
+    display: none;
+  }
+}
