@@ -27,9 +27,9 @@ Upload any of your transcripts and analyze between all the important keywords, s
 
 ```
 
-- npm  install 
+$ npm  install 
 
-- npm run start:dev
+$ npm run start:dev
 
 ```
 
