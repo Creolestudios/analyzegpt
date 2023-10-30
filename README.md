@@ -13,9 +13,7 @@
   <a href="https://github.com/frinyvonnick/gitmoji-changelog">
     <img src="https://img.shields.io/badge/changelog-gitmoji-brightgreen.svg" alt="gitmoji-changelog">
   </a>
-  <a href="https://twitter.com/FranckAbgrall">
-    <img alt="Twitter: FranckAbgrall" src="https://img.shields.io/twitter/follow/FranckAbgrall.svg?style=social" target="_blank" />
-  </a>
+ 
 </p>
 
 
@@ -23,5 +21,16 @@
 # analyzegpt
 Upload any of your transcripts and analyze between all the important keywords, situations, challenges, risks, impacts and solutions with the help GPT knowledge base.
 
+
+# Server
+
+
+```
+
+- npm  install 
+
+- npm run start:dev
+
+```
 
 
